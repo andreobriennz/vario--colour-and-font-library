@@ -34,33 +34,30 @@
 	</div> -->
 
 	<div class="card full-screen-card" id="get-started">
-		<h2>Getting Started</h2>
+		<h2 id="hierarchy">Getting Started</h2>
 	</div>
 
 	<div class="card full-screen-card" id="components">
-		<h2>Soft Material Fonts and Colors</h2>
+		<h2 id="main">Soft Material Fonts and Colors</h2>
 		<p><strong>Here are the twelve colors of the soft material framework.</strong><br>To add a color, simply add the class listed on the box of that color.<br>They can also be used as text colors by removing the '-bg' from the class. <br><br>Tip: When adding multiple classes it's recommended to add the color class last to avoid specificity conflicts.</p>
-		<div class="card eigth-screen-card dark-grey-bg">.dark-grey-bg</div>
-		<div class="card eigth-screen-card light-grey-bg dark-grey">.light-grey-bg</div>
 
-		<div class="card eigth-screen-card magenta-bg">.magenta-bg</div>
-		<div class="card eigth-screen-card red-bg">.red-bg</div>
-		<div class="card eigth-screen-card orange-bg">.orange-bg</div>
-		<div class="card eigth-screen-card amber-bg">.amber-bg</div>
-		<div class="card eigth-screen-card yellow-bg">.yellow-bg</div>
+		<div class="card eigth-screen-card magenta">.magenta</div>
+		<div class="card eigth-screen-card red">.red</div>
+		<div class="card eigth-screen-card orange">.orange</div>
+		<div class="card eigth-screen-card amber">.amber</div>
+		<div class="card eigth-screen-card yellow">.yellow</div>
 
-		<!-- <div class="card eigth-screen-card light-green-bg">.light-green-bg</div> -->
-		<div class="card eigth-screen-card medium-green-bg">.medium-green-bg</div>
+		<!-- <div class="card eigth-screen-card light-green-bg">.light-green</div> -->
+		<div class="card eigth-screen-card medium-green">.medium-green</div>
 
 		<!-- <div class="card eigth-screen-card dark-green-bg">.dark-green-bg</div> -->
-		<div class="card eigth-screen-card blue-green-bg">.blue-green-bg</div>
-		<div class="card eigth-screen-card light-blue-bg">.light-blue-bg</div>
-		<div class="card eigth-screen-card medium-blue-bg">.medium-blue-bg</div>
-		<div class="card eigth-screen-card dark-blue-bg">.dark-blue-bg</div>
-		<br>
+		<div class="card eigth-screen-card blue-green">.blue-green</div>
+		<div class="card eigth-screen-card light-blue">.light-blue</div>
+		<div class="card eigth-screen-card medium-blue">.medium-blue</div>
+		<div class="card eigth-screen-card dark-blue">.dark-blue</div>
 
-
-
+		<div class="card eigth-screen-card dark-grey">.dark-grey</div>
+		<div class="card eigth-screen-card light-grey this4">.light-grey</div>
 	</div>
 
 	<div class="card full-screen-card" id="menus">
@@ -97,9 +94,11 @@ Ideal for simple minimalist websites.
 		</p>
 		<!-- <div class="card eigth-screen-card dark-grey-bg"><strong>Classes:</strong><br>.card <br>.eigth-screen-card</div>
 		<br> -->
-		<div class="rounded-card quarter-screen-card dark-grey-bg"><strong>Classes:</strong><br>.rounded-card <br>.quarter-screen-card</div>
+		<div class="rounded-card quarter-screen-card dark-grey"><strong>Classes:</strong><br>.rounded-card <br>.quarter-screen-card</div>
 		<br>
-		<div class="card half-screen-card dark-grey-bg"><strong>Classes:</strong><br>.card <br>.half-screen-card</div>
+		<div class="square-card third-screen-card dark-grey"><strong>Classes:</strong><br>.square-card <br>.third-screen-card</div>
+		<br>
+		<div class="card half-screen-card dark-grey"><strong>Classes:</strong><br>.card <br>.half-screen-card</div>
 		<br>
 	</div>
 
@@ -112,6 +111,22 @@ Ideal for simple minimalist websites.
 		<button class="medium-rounded-button">.medium-rounded-button</button>
 	</div>
 
+	<div class="card full-screen-card" id="cssvar">
+		<h2>CSS Variable Colors</h2>
+		<p><strong>Now you can use CSS variable to update colors</strong><br>The names of the variables are the same as the name names of the classes for those colors, except it says with '--'.<br><br><strong>Examples are shown below:</strong></p>
+		<div class="card quarter-screen-card this">background-color: var(--amber);<br>color: var(--dark-grey);</div>
+		<div class="card quarter-screen-card this2">background-color: var(--magenta);<br>color: var(--light-grey);</div>
+		<div class="card quarter-screen-card this3">background-color: var(--medium-blue);<br>color: var(--light-grey);</div>
+		<br>
+	</div>
+
+	<div class="card full-screen-card background" id="jsvar">
+		<h2 class="hierarchy">JS Dongle</h2>
+		<p class="main">Now you can  use JavaScript to update HTML and CSS!</p>
+		<button onclick="darkTheme()">Change to dark theme</button>
+		<button onclick="lightTheme()">Change to light theme</button>
+	</div>
+
 	<footer class="footer-bottom">
 		<a href="#home">Home</a>
 		<a href="#get-started">Getting Started</a>
@@ -119,21 +134,15 @@ Ideal for simple minimalist websites.
 		<a href="#menus">Menus</a>
 		<a href="#cards">Cards</a>
 		<a href="#buttons">Buttons</a>
+		<a href="#cssvar">CSS Variables</a>
+		<a href="#jsvar">JS Dongle</a>
 		<br><br>
 		<a href="https://andreobriennz.com">&copy;Andre O'Brien</a>
 	</footer>
 
-<!-- 	<footer class="footer-fixed">
-		<a href="#home">Home</a>
-		<a href="#get-started">Getting Started</a>
-		<a href="#components">Fonts and Colors</a>
-		<a href="#menus">Menus</a>
-		<a href="#cards">Cards</a>
-		<a href="#buttons">Buttons</a>
-		<a href="https://andreobriennz.com">&copy;Andre O'Brien</a>
-	</footer> -->
-
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/dongle.js"></script>
+	<script src="js/controller.js"></script>
 
 </body>
 </html>

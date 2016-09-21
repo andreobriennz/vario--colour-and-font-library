@@ -120,6 +120,12 @@ label {
 		border-radius: 0.4em;
 	}
 
+	.square-card {
+		background-color: #eee;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.max-screen-card {
 		width: 100vw;
 		height: 100vh;
@@ -281,73 +287,72 @@ label {
 
 
 
-/*BACKGROUND*/
 
 
 /*COLORS*/
-	/*default colours*/
-	.light-grey {
-		color: #eee;
+	/*color variables*/
+	body {
+	  --light-grey: #EEE;
+	  --dark-grey: #292929;
+	  --magenta: #E91E63;
+	  --red: #F44336;
+	  --orange: #FF5C1A;
+	  --yellow: #FFD530;
+	  --amber: #FEC006;
+	  --medium-green: #00b090;
+	  --blue-green: #00aab0;
+	  --light-blue: #00c6ea;
+	  --medium-blue: #2a93Fa;
+	  --dark-blue: #156bC3;
 	}
 
-	.dark-grey {
-		color: #292929;
+	.background {
+		background-color: var(--background);
+	}
+	.main {
+		background-color: var(--main);
+	}
+	.hierarchy {
+		background-color: var(--hierarchy);
 	}
 
 	/*default backgrong colors*/
-	.light-grey-bg {
+	.light-grey {
 		background-color: #eee;
 	}
-
-	.dark-grey-bg {
+	.dark-grey {
 		background-color: #292929;
 	}
-
-	.magenta-bg {
+	.magenta {
 		background-color: #E91E63;
 	}
-
-	.red-bg {
-		background-color: #F44336
+	.red {
+		background-color: #F44336;
 	}
-
-	.orange-bg {
-		background-color: #ff5c1a;
+	.orange {
+		background-color: #FF5C1A;
 	}
-
-	.yellow-bg {
+	.yellow {
 		background-color: #FFD530;
 	}
-
-	.amber-bg {
+	.amber {
 		background-color: #FEC006;
 	}
-
-	.medium-green-bg {
+	.medium-green {
 		background-color: #00b090;
 	}
-
-	.dark-green-bg {
-
-	}
-
-	.blue-green-bg {
+	.blue-green {
 		background-color: #00aab0;
 	}
-
-	.light-blue-bg {
+	.light-blue {
 		background-color: #00c6ea;
 	}
-
-	.medium-blue-bg {
+	.medium-blue {
 		background-color: #2a93Fa;
 	}
-
-	.dark-blue-bg {
+	.dark-blue {
 		background-color: #156bC3;
 	}
-
-/*have 10/12 colors so can say 'the 10/12 colors'.  1-2 blues*/
 
 
 
