@@ -1,0 +1,354 @@
+/*BOILERPLATE */
+body {
+	margin: 0;
+}
+
+* {
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+	padding: 1em;
+	color: #292929;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.logo:hover {
+	text-decoration: none;
+}
+
+
+label {
+
+}
+
+
+/*FONTS*/
+.sans-serif, .roboto {
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.serif {
+
+}
+
+.script {
+
+}
+
+/*GRID and LAYOUT (incl header and footer / top, bottom, left, right, centre) */
+
+
+/*NAV*/
+	nav.clear-nav {
+		position: fixed;
+	}
+	nav.clear-nav a {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img.clear-nav {
+
+	}
+
+	/*triangle-nav*/
+	header.triangle-nav {
+		background-color: #00b090;
+		width: 100vw;
+		height: 1em;
+		position: fixed;
+		z-index: 1;
+	}
+	nav.triangle-nav {
+		display: inline-block;
+		position: absolute;
+		top: 1em;
+		border-top: 3em solid #00b090;
+		border-left: 50vw solid transparent;
+		border-right: 50vw solid transparent;
+	}
+	img.triangle-nav {
+		position: absolute;
+		top: 0;
+		height: 2.8em;
+		width: 2.8em;
+		margin-left: calc(50% - 1.4em);
+		margin-top: 0.7em;
+		margin-bottom: auto;
+	}
+
+	.no-nav {
+		width: 100vw;
+		height: 66vh;
+	}
+
+	footer {
+		width: 100vw;
+	}
+
+	.footer-bottom {
+
+	}
+
+	.footer-fixed {
+		
+	}
+
+
+
+
+/*CARDS*/
+	.card {
+		background-color: #eee;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 0.2em;
+	}
+
+	.rounded-card {
+		background-color: #eee;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 0.4em;
+	}
+
+	.max-screen-card {
+		width: 100vw;
+		height: 100vh;
+	}
+
+	.full-screen-card {
+		width: 95vw;
+		min-height: 95vh;
+		margin-top: 2.5vh;
+		margin-bottom: 2.5vh;
+	}
+
+	.half-screen-card {
+		width: 50vw;
+		height: 50vw;
+	}
+
+	.quarter-screen-card {
+		width: 25vw;
+		height: 25vw;
+	}
+
+	.eigth-screen-card {
+		width: 12.5vw;
+		height: 12.5vw;
+	}
+
+	.third-screen-card {
+		width: 33.33vw;
+		height: 33.33vw;		
+	}
+
+	.fifth-screen-card {
+		width: 20vw;
+		height: 20vw;
+	}
+
+
+	.half-card {
+		width: 50%;
+	}
+
+	.third-card {
+		width: 33.33%;
+	}
+
+	.quarter-card {
+		width: 25%;
+	}
+
+/*	.full-golden-card {
+		width: 100vw;
+		height: 160vw;
+	}
+
+	.half-golden-card {
+		width: 50vw;
+		height: 80vw;
+	}
+
+	.third-golden-card {
+		width: 33.33vw;
+		height: 52.8vw;
+	}*/
+
+
+
+/*BUTTONS*/
+	button, .button {
+		text-align: center;
+	}
+
+	.rounded-button {
+		outline: none;
+		border: solid 0.1em lightgrey;
+		background-color: white;
+		border-radius: 0.2em;
+		transition: 0.24s;
+	}
+	.rounded-button:hover {
+		/*text-decoration: underline;*/
+		border-radius: 100em;
+	}
+
+	.small-button {
+		width:6.5em;
+		height:2.4em;
+		outline:none;
+		border: solid 0.1em lightgrey;
+		background-color: white;
+		border-radius: 0.2em;
+		transition: 0.24s;
+	}
+
+	.small-button:hover {
+		text-decoration: underline;
+		/*border-width: 0.2em;*/
+		border-radius: 1.2em;
+		/*transition: 0.14s;*/
+		/*border-color: lightblue;*/
+		/*color: lightblue;*/
+	}
+
+	.medium-button {
+		min-width: 8em;
+		min-height: 7vh;
+		outline: none;
+		border: none;
+		background-color: #00b090;
+		font-size: 1.3em;
+		color: white;
+		cursor: pointer;
+		margin-left: calc(50vw - 4em);
+	}
+
+	.medium-button:hover {
+		border: solid;
+		border-color: #fff;
+		color: white;
+		transition: 0.1s;
+	}
+
+	.large-button {
+
+	}
+
+	.large-rounded-button {
+
+	}
+
+	.medium-rounded-button {
+		min-width: 12em;
+		min-height: 4em;
+		outline:none;
+		border: solid 0.1em lightgrey;
+		background-color: white;
+		border-radius: 0.2em;
+		transition: 0.2s;
+	}
+
+	.medium-rounded-button:hover {
+		/*text-decoration: underline;*/
+		/*border-width: 0.2em;*/
+		border-radius: 20em;
+		/*transition: 0.14s;*/
+		/*border-color: lightblue;*/
+		/*color: lightblue;*/
+	}
+
+	.materialButton:hover {
+		text-decoration: underline;
+		/*border-width: 0.2em;*/
+		border-radius: 1.2em;
+		transition: 0.14s;
+		/*border-color: lightblue;*/
+		/*color: lightblue;*/
+	}
+
+
+
+
+/*BACKGROUND*/
+
+
+/*COLORS*/
+	/*default colours*/
+	.light-grey {
+		color: #eee;
+	}
+
+	.dark-grey {
+		color: #292929;
+	}
+
+	/*default backgrong colors*/
+	.light-grey-bg {
+		background-color: #eee;
+	}
+
+	.dark-grey-bg {
+		background-color: #292929;
+	}
+
+	.magenta-bg {
+		background-color: #E91E63;
+	}
+
+	.red-bg {
+		background-color: #F44336
+	}
+
+	.orange-bg {
+		background-color: #ff5c1a;
+	}
+
+	.yellow-bg {
+		background-color: #FFD530;
+	}
+
+	.amber-bg {
+		background-color: #FEC006;
+	}
+
+	.medium-green-bg {
+		background-color: #00b090;
+	}
+
+	.dark-green-bg {
+
+	}
+
+	.blue-green-bg {
+		background-color: #00aab0;
+	}
+
+	.light-blue-bg {
+		background-color: #00c6ea;
+	}
+
+	.medium-blue-bg {
+		background-color: #2a93Fa;
+	}
+
+	.dark-blue-bg {
+		background-color: #156bC3;
+	}
+
+/*have 10/12 colors so can say 'the 10/12 colors'.  1-2 blues*/
+
+
+
+
