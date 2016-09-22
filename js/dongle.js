@@ -1,6 +1,6 @@
 // var background;
 // var main;
-// var hierarchy;
+// var hierarchy; 
 
 var background = document.querySelector('.background');
 var main = document.querySelector('.main');
