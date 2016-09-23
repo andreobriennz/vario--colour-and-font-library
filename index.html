@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Soft Martial Framework / Dongle</title>
+	<title>VariableCSS</title>
 
-	<link rel="stylesheet" type="text/css" href="css/dongle.css">
+	<link rel="stylesheet" type="text/css" href="css/variable.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body id="home">
@@ -30,16 +30,30 @@
 
 
 <!-- 	<div class="card full-screen-card">
-		<h2>Welcome to Soft Material</h2>
+		<h2>Welcome to VariableCSS</h2>
 	</div> -->
 
 	<div class="card full-screen-card" id="get-started">
 		<h2 id="hierarchy">Getting Started</h2>
+		<p><strong>Add CSS</strong><br>Easily include VariableCSS with one of the following methods.<br>
+		Option 1. Link to this CSS file in the header of your HTML. Make sure you add it prior to your own CSS document: <span class="underline">css/variable.css</span><br>
+		Option 2. Download the CSS file<a href="css/variable.css" class="underline">here.</a>
+		</p>
+		<p><strong>Add SASS</strong><br>Easily include the SASS version of VariableCSS with one of the following methods.<br>
+		Option 1. Link to this CSS file in the header of your HTML. Make sure you add it prior to your own CSS document: <span class="underline">sass/variable.sass</span><br>
+		Option 2. Download the CSS file<a href="sass/variable.scss" class="underline">here.</a>
+		</p>
+		<p><strong>Want to add the JavaScript plugin?</strong><br>Optionally, you can also include the VariableJS plugin by the same method:<br>
+		Option 1. Link to this JavaScript file in the footer of your HTML. Make sure you add it prior to your own JavaScript document:<span class="underline">js/variable.js </span><br>
+		Option 2. Download the JavaScript file<a href="js/variable.js" class="underline">here.</a>
+		</p>
+		<p><strong>Don't forget fonts!</strong><br>
+		Add Roboto font with this link <span class="underline">&lt;link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"&gt;</span></p>
 	</div>
 
 	<div class="card full-screen-card" id="components">
-		<h2 id="main">Soft Material Fonts and Colors</h2>
-		<p><strong>Here are the twelve colors of the soft material framework.</strong><br>To add a color, simply add the class listed on the box of that color.<br>They can also be used as text colors by removing the '-bg' from the class. <br><br>Tip: When adding multiple classes it's recommended to add the color class last to avoid specificity conflicts.</p>
+		<h2 id="main">VariableCSS Fonts and Colors</h2>
+		<p><strong>Here are the twelve colors of the VariableCSS framework.</strong><br>To add a color, simply add the class listed on the box of that color.<br>They can also be used as text colors by removing the '-bg' from the class. <br><br>Tip: When adding multiple classes it's recommended to add the color class last to avoid specificity conflicts.</p>
 
 		<div class="card eigth-screen-card magenta">.magenta</div>
 		<div class="card eigth-screen-card red">.red</div>
@@ -58,10 +72,12 @@
 
 		<div class="card eigth-screen-card dark-grey">.dark-grey</div>
 		<div class="card eigth-screen-card light-grey this4">.light-grey</div>
+
+		<p><strong>Note:</strong>Fonts types as classes and variables are not yet supported. Stay tuned for a future release.</p>
 	</div>
 
 	<div class="card full-screen-card" id="menus">
-		<h2>Soft Material Menus</h2>
+		<h2>VariableCSS Menus</h2>
 <pre class="dark-grey">
 <strong>Create triangle nav.</strong>
 Ideal for single page websites.
@@ -89,7 +105,7 @@ Ideal for simple minimalist websites.
 	</div>
 
 	<div class="card full-screen-card" id="cards">
-		<h2>Soft Material Cards</h2>
+		<h2>VariableCSS Cards</h2>
 		<p><strong>Creating a card is easy.</strong><br>Create a div with a class of either 'card' or 'rounded-card' depending on the desired sharpness of the corners. Add the class to state the size of the card. Add a color.<br><br><strong>Size classes are listed below:</strong><br>.full-screen-card (takes up 95% of the viewport); <br>.max-screen-card (takes up 100% of viewport); <br>.half-screen-card (takes up half of viewport width); <br>.quarter-screen-card (takes up a quarter of the viewort width); <br>.eigth-screen-card (takes up an eigth of the viewport width); <br>.third-screen-card (takes up a third of the viewport width); <br>.fifth-screen-card (takes up a fifth of the viewport width) <br><br><strong>Examples:</strong>
 		</p>
 		<!-- <div class="card eigth-screen-card dark-grey-bg"><strong>Classes:</strong><br>.card <br>.eigth-screen-card</div>
@@ -103,25 +119,33 @@ Ideal for simple minimalist websites.
 	</div>
 
 	<div class="card full-screen-card" id="buttons">
-		<h2>Soft Material Buttons</h2>
-		<button class="small-button">.small-button</button>
+		<h2>VariableCSS Buttons</h2>
+		<button class="button">.button</button><br>
+		<button class="square-button">.square-button</button><br>
 		<br>
-		<button class="medium-button">.medium-button</button>
+		<button class="button small-button">.small-button</button><br>
+		<button class="square-button small-button">.small-square-button</button><br>
 		<br>
-		<button class="medium-rounded-button">.medium-rounded-button</button>
+		<button class="button medium-button">.medium-button</button><br>
+		<button class="square-button medium-button">.medium-square-button</button><br>
+		<br>
+		<button class="button large-button">.large-button</button><br>
+		<button class="square-button large-button">.large-square-button</button><br>
 	</div>
 
 	<div class="card full-screen-card" id="cssvar">
-		<h2>CSS Variable Colors</h2>
-		<p><strong>Now you can use CSS variable to update colors</strong><br>The names of the variables are the same as the name names of the classes for those colors, except it says with '--'.<br><br><strong>Examples are shown below:</strong></p>
+		<h2>CSS and SASS Variable Colors</h2>
+		<p><strong>Now you can use CSS variables to update colors</strong><br>The names of the variables are the same as the name names of the classes for those colors, except it says with '--'.<br><br><strong>Examples are shown below:</strong></p>
 		<div class="card quarter-screen-card this">background-color: var(--amber);<br>color: var(--dark-grey);</div>
 		<div class="card quarter-screen-card this2">background-color: var(--magenta);<br>color: var(--light-grey);</div>
 		<div class="card quarter-screen-card this3">background-color: var(--medium-blue);<br>color: var(--light-grey);</div>
 		<br>
+		<p>Note: CSS Variables have good support in most browsers, including Chrome, Firefox and Safari. However they are not yet supported in IE or Edge. Therefore, if using them, it is recommended to ensure the website is usable without CSS variables.<br>
+		SASS variables have no known issues.</p>
 	</div>
 
 	<div class="card full-screen-card background" id="jsvar">
-		<h2 class="hierarchy">JS Dongle</h2>
+		<h2 class="hierarchy">JS Plugin</h2>
 		<p class="main">Now you can  use JavaScript to update HTML and CSS!</p>
 		<button onclick="darkTheme()">Change to dark theme</button>
 		<button onclick="lightTheme()">Change to light theme</button>
@@ -134,14 +158,14 @@ Ideal for simple minimalist websites.
 		<a href="#menus">Menus</a>
 		<a href="#cards">Cards</a>
 		<a href="#buttons">Buttons</a>
-		<a href="#cssvar">CSS Variables</a>
-		<a href="#jsvar">JS Dongle</a>
+		<a href="#cssvar">CSS Variable Colors</a>
+		<a href="#jsvar">JS Plugin</a>
 		<br><br>
 		<a href="https://andreobriennz.com">&copy;Andre O'Brien</a>
 	</footer>
 
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
-	<script src="js/dongle.js"></script>
+	<script src="js/variable.js"></script>
 	<script src="js/controller.js"></script>
 
 </body>

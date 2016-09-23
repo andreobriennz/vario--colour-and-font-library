@@ -1,0 +1,42 @@
+/*CUSTOM*/
+
+div {
+	color: white;
+}
+
+pre {
+	text-align: left;
+	margin-left: 5vw;
+}
+
+.this {
+	background-color: var(--amber);
+	color: var(--dark-grey);
+}
+
+.this2 {
+	background-color: var(--magenta);
+	color: var(--light-grey);
+}
+
+.this3 {
+	background-color: var(--medium-blue);
+	color: var(--light-grey);
+}
+
+.this4 {
+	color: var(--dark-grey);
+}
+
+.underline {
+	text-decoration: underline;
+	color: var(--amber);
+} 
+
+a.underline:hover {
+		color: var(--red);
+}
+
+h2 {
+	/*color: var(--amber);*/
+}
