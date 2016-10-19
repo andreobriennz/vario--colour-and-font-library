@@ -143,7 +143,7 @@ button, .button, .square-button {
   border: solid 0.1em lightgrey;
   background-color: white;
   border-radius: 0.2em;
-  transition: 1.4s; }
+  transition: 0.2s; }
 
 .button:hover {
   border-radius: 100em;
