@@ -1,6 +1,14 @@
 /*CUSTOM*/
 * {
-	text-align: center;
+  text-align: center;
+}
+
+html, body {
+  overflow: none;
+}
+
+article {
+  overflow: scroll;
 }
 
 div {
@@ -73,7 +81,8 @@ nav a {
 
 .banner {
   width: 100vw;
-  height: 2em;
+  /*height: 2em;*/
+  padding: 0.5em;
   background-color: var(--amber);
   margin-top: -1.1em;
 }
