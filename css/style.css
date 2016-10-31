@@ -1,7 +1,49 @@
 /*CUSTOM*/
 * {
-  text-align: center;
-}
+  text-align: center; }
+
+.logo:hover {
+  text-decoration: none; }
+
+/*NAV*/
+nav.clear-nav {
+  position: fixed; }
+
+nav.clear-nav a {
+  margin-left: auto;
+  margin-right: auto; }
+
+/*triangle-nav*/
+header.triangle-nav {
+  background-color: #2A93FA;
+  width: 100vw;
+  height: 1em;
+  position: fixed;
+  z-index: 1; }
+
+nav.triangle-nav {
+  display: inline-block;
+  position: absolute;
+  top: 1em;
+  border-top: 3em solid #2A93FA;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent; }
+
+img.triangle-nav {
+  position: absolute;
+  top: 0;
+  height: 2.8em;
+  width: 2.8em;
+  margin-left: calc(50% - 1.4em);
+  margin-top: 0.7em;
+  margin-bottom: auto; }
+
+.no-nav {
+  width: 100vw;
+  height: 66vh; }
+
+footer {
+  width: 100vw; }
 
 div {
   color: white; }
@@ -11,54 +53,48 @@ pre {
   margin-left: 5vw; }
 
 .this {
-  background-color: var(--amber);
-  color: var(--dark-grey); }
+  background-color: #FEC006;
+  color: #292929; }
 
 .this2 {
-  background-color: var(--magenta);
-  color: var(--light-grey); }
+  background-color: #E91E63;
+  color: #F9F9F9; }
 
-.this3 {
-  background-color: var(--medium-blue);
-  color: var(--light-grey); }
-
+/*.this3 {
+  background-color: $medium-blue;
+  color: $light-grey; 
+}*/
 .this4 {
-  color: var(--dark-grey); }
+  color: #292929; }
 
 .underline {
   text-decoration: underline;
-  color: var(--amber); }
+  color: #FEC006; }
 
 a.underline:hover {
-  color: var(--red); }
+  color: #F44336; }
 
 h2 {
-  /*color: var(--amber);*/ }
+  /*color: $amber;*/ }
 
 .underlin {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .full-screen-card {
-  background-color: var(--dark-grey);
-}
+  background-color: #292929; }
 
 h1, h2, h3 {
-  color: var(--amber);
-}
+  color: #FEC006; }
 
 p {
-  color: #fff;
-}
+  color: #F9F9F9; }
 
 .hide {
-  display: none;
-}
+  display: none; }
 
 .important-text {
-  color: var(--dark-grey);
-  text-decoration: underline;
-}
+  color: #292929;
+  text-decoration: underline; }
 
 /*.banner {
   width: 100vw;
@@ -66,15 +102,15 @@ p {
   background-color: var(--amber);
   margin-top: -1.1em;
 }*/
-
 nav a {
-  color: #fff;
-}
+  color: #F9F9F9 !important; }
 
 .banner {
   width: 100vw;
-  /*height: 2em;*/
-  padding: 0.5em;
-  background-color: var(--amber);
-  margin-top: -1.1em;
-}
+  height: 2em;
+  background-color: #FEC006;
+  margin-top: -1.1em; }
+
+.card, .rounded-card, .square-card {
+  margin-left: auto;
+  margin-right: auto; }

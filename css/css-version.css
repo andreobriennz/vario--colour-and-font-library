@@ -1,0 +1,26 @@
+/*update colors*/
+body {
+  --light-grey: #EEE;
+  --dark-grey: #292929;
+  --magenta: #E91E63;
+  --red: #F44336;
+  --orange: #FF5C1A;
+  --yellow: #FFD530;
+  --amber: #FEC006;
+  /*--medium-green: #00b090;*/
+  /*--blue-green: #00aab0;*/
+  --light-blue: #00c6ea;
+  --medium-blue: #2a93Fa;
+  --dark-blue: #156bC3;
+}
+
+
+.background {
+  background-color: var(--background);
+}
+.main {
+  background-color: var(--main);
+}
+.hierarchy {
+  background-color: var(--hierarchy);
+}
