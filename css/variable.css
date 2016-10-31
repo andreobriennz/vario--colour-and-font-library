@@ -1,4 +1,21 @@
 /*VARIABLES*/
+/*BASIC BOILERPLATE */
+* {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif; }
+
+body {
+  margin: 0;
+  background-color: #F9F9F9; }
+
+h1, h2, h3, h4, h5, h6, a, p {
+  padding: 1em;
+  color: #292929; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
 /*ADD COLOURS WITH CLASSES*/
 /*main colour*/
 .light-grey {
