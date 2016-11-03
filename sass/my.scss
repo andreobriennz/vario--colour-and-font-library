@@ -1,3 +1,4 @@
+/*Colors can be added with either classes or the variables below*/
 $light-grey: #F9F9F9;
 $dark-grey: #292929;
 $magenta: #E91E63;
@@ -27,7 +28,7 @@ $serif: serif;
 $script: script;
 
 
-/*BASIC BOILERPLATE */
+/*Boilerplate. You can change fonts and default text/background colors here if needed */
 * {
 	font-family: $sans-serif;
 }
