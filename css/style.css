@@ -7,17 +7,13 @@ body {
   background-color: #F9F9F9; }
 
 h1, h2, h3, h4, h5, h6, a, p {
-  padding: 1em;
-  color: #292929;
-  max-width: 48em;
-  /*text-align: center;*/
-  margin-left: auto;
-  margin-right: auto; }
-
-h1 {
   padding: 0.5em;
   color: #292929;
-}
+  max-width: 55em;
+  /*text-align: center;*/
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.414em; }
 
 a {
   text-decoration: none; }
@@ -25,8 +21,7 @@ a {
     text-decoration: underline; }
 
 div.card {
-  min-width: 7em; 
-}
+  min-width: 7em; }
 
 /*CUSTOM*/
 * {
@@ -113,7 +108,7 @@ h2 {
 .full-screen-card {
   background-color: #292929; }
 
-h1, h2, h3 {
+h2, h3 {
   color: #FEC006; }
 
 p {
@@ -144,3 +139,7 @@ nav a {
 .card, .rounded-card, .square-card {
   margin-left: auto;
   margin-right: auto; }
+
+.font-img {
+  width: 90%;
+  padding-bottom: 1em; }

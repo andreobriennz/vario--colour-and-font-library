@@ -1,4 +1,7 @@
-/*Colors can be added with either classes or the variables below*/
+/*Colors can be added with classes for html or variables for scss*/
+
+/*You can use the preset colours, or change the hex code to suit*/
+/*Adding colors in scss files with variables*/
 $light-grey: #F9F9F9;
 $dark-grey: #292929;
 $magenta: #E91E63;
@@ -13,43 +16,8 @@ $light-blue: #00C6EA;
 $medium-blue: #2A93FA;
 $dark-blue: #156BC3;
 
-$sans-serif: "Roboto", "Helvetica", "Arial", sans-serif;
-$serif: serif;
-$script: script;
-
-
-/*Boilerplate. You can change fonts and default text/background colors here if needed */
-* {
-	font-family: $sans-serif;
-}
-body {
-	margin: 0;
-	background-color: $light-grey;
-
-}
-
-h1, h2, h3, h4, h5, h6, a, p {
-	padding: 1em;
-	color: $dark-grey;
-}
-
-a {
-	text-decoration: none;
-		&:hover {
-			text-decoration: underline;
-	}
-}
-
-
-
-
-
-
-
-
-
-/*OR ADD COLOURS WITH CLASSES*/
-/*text colour*/
+/*Adding colors with classes in html*/
+/*TEXT COLORS*/
 .light-grey {
 	color: $light-grey;
 }
@@ -90,7 +58,8 @@ a {
 	color: $dark-blue;
 }
 
-/*background colors*/
+
+/*BACKGROUND COLORS*/
 .light-grey-bg {
 	background-color: $light-grey;
 }
@@ -130,4 +99,3 @@ a {
 .dark-blue-bg {
 	background-color: $dark-blue;
 }
-
