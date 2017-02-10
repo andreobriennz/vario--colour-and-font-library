@@ -20,4 +20,5 @@ Using with Normalize is recommended.
 ## Needs reivew
 - Review colours / fonts
 - Add font options eg serif 
+- Move this project into Vario2
 
