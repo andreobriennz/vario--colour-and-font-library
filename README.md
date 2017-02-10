@@ -5,7 +5,7 @@ A basic boilerplate and library of fonts and colours we're creating as a bit of 
 
 *Project is still in Alpha and will likely change a lot*
 
-Using with Normalize is recommended.
+Includes normailize file.
 
 ## Componients
 - Boilerplate
