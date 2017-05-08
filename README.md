@@ -1,5 +1,7 @@
 # Vario Colour and Font Library (Alpha)
 
+**Important note** This project is no longer maintained
+
 ## What is it?
 A basic boilerplate and library of fonts and colours we're creating as a bit of a side project. Primarily intended for use on smaller projects, letting us get started more quickly. Based on SCSS. 
 
